@@ -63,6 +63,13 @@
         <Logger name="org.jasig.cas.web.flow" level="info" additivity="true">
             <AppenderRef ref="file"/>
         </Logger>
+        
+        <Logger name="org.jasig.cas.ticket.registry" level="info" additivity="true">
+        </Logger>
+        <Logger name="org.jasig.cas.authentication" level="debug" additivity="true">
+        </Logger>
+        
+        
         <Logger name="org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager" level="info">
             <AppenderRef ref="file"/>
         </Logger>
