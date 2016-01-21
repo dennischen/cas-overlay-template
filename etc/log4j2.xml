@@ -72,6 +72,8 @@
         </Logger>
         <Logger name="org.jasig.cas.CentralAuthenticationServiceImpl" level="info" additivity="true">
         </Logger>
+        <Logger name="org.jasig.cas.logout.LogoutManagerImpl" level="debug" additivity="true">
+        </Logger>
         
         
         <Logger name="org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager" level="info">

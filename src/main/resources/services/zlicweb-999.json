@@ -1,8 +1,8 @@
 {
   "@class" : "org.jasig.cas.services.RegexRegisteredService",
-  "serviceId" : "^https://local[.]dev.*",
+  "serviceId" : "^http://local[.]dev:8080/zlicweb/.*",
   "name" : "local.dev",
-  "id" : 999,
+  "id" : 998,
   "description" : "This service definition authorized local dev application provide exteral allowed attributes",
   "proxyPolicy" : {
     "@class" : "org.jasig.cas.services.RefuseRegisteredServiceProxyPolicy"
@@ -11,14 +11,14 @@
   "usernameAttributeProvider" : {
     "@class" : "org.jasig.cas.services.DefaultRegisteredServiceUsernameProvider"
   },
-  "logoutType" : "BACK_CHANNEL",
+  "logoutType" : "FRONT_CHANNEL",
+  "logoutUrl" : "http://local.dev:8080/zlicweb/logout",
   "attributeReleasePolicy" : {
     "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
     "principalAttributesRepository" : {
       "@class" : "org.jasig.cas.authentication.principal.DefaultPrincipalAttributesRepository"
     },
-    "allowedAttributes" : [ "java.util.ArrayList", [ "cn", "mail", "sn" ,"uid", "eduPersonAffiliation", 
-    	"groupMembership", "memberOf" ] ],
+    "allowedAttributes" : [ "java.util.ArrayList", [ "displayName", "mail" ] ],
     "authorizedToReleaseCredentialPassword" : false,
     "authorizedToReleaseProxyGrantingTicket" : false
   },

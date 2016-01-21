@@ -1,0 +1,24 @@
+Request URL:
+http://local.dev:8080/zlicweb/logout?SAMLRequest=eJx9kMFOg0AQhl%2BF7B3dhZTECZBqIYFIa1LQQy9mgdE2wi4yi5I%2BvVsbk%2BrB6z%2F5v%2FlmQpJ9N0ChX%2FVktvg%2BIRln7jtF8D2J2DQq0JIOBEr2SGAaKG%2FXBXhXHIZRG93ojjl5ErFi63ruatfpfV8rH9%2Fq%2FVxuDP8sMFmPbXsfJPVw5y8%2BmPOEIx20ipiF2C7RhLkiI5WxEReBy4XriUoE4AewuNmxODzZwMYa5MmF3%2F96kghHYxexeLl5qJ4fyzRZhtcXqDN3gBLpJJSrFue4rOwdaZ9xPB7n5kVkIkvrftVlbiNJ6Ra5OEP%2B9H7CX8%2BMvwDpv3g%2B&RelayState=e1s1
+
+Request Headers
+Provisional headers are shown
+	Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+	Upgrade-Insecure-Requests:1
+	User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+	X-DevTools-Emulate-Network-Conditions-Client-Id:B5F06E45-78E2-4002-8B05-B72D2C8E7B4C
+Query String Parameters
+	SAMLRequest:eJx9kMFOg0AQhl+F7B3dhZTECZBqIYFIa1LQQy9mgdE2wi4yi5I+vVsbk+rB6z/5v/lmQpJ9N0ChX/Vktvg+IRln7jtF8D2J2DQq0JIOBEr2SGAaKG/XBXhXHIZRG93ojjl5ErFi63ruatfpfV8rH9/q/VxuDP8sMFmPbXsfJPVw5y8+mPOEIx20ipiF2C7RhLkiI5WxEReBy4XriUoE4AewuNmxODzZwMYa5MmF3/96kghHYxexeLl5qJ4fyzRZhtcXqDN3gBLpJJSrFue4rOwdaZ9xPB7n5kVkIkvrftVlbiNJ6Ra5OEP+9H7CX8+MvwDpv3g+
+	RelayState:e1s1
+	
+	
+---
+CAS redirects (HTTP 302) to the service with a message and a RelayState parameter 
+(front channel communication): 
+This feature is inspired by SAML SLO, 
+and is needed if the client application is composed of several servers and use session affinity. 
+The expected behaviour of the CAS client is to invalidate the application web session 
+and redirect back to the CAS server with the RelayState parameter.	11
+
+redirect to , where RelayState is from query string
+https://local.dev:9443/cas/logout?_eventId=next&RelayState=e2s2
