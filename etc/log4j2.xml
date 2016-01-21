@@ -66,7 +66,11 @@
         
         <Logger name="org.jasig.cas.ticket.registry" level="info" additivity="true">
         </Logger>
-        <Logger name="org.jasig.cas.authentication" level="debug" additivity="true">
+        <Logger name="org.jasig.cas.authentication" level="info" additivity="true">
+        </Logger>
+        <Logger name="org.jasig.cas.authentication.support" level="info" additivity="true">
+        </Logger>
+        <Logger name="org.jasig.cas.CentralAuthenticationServiceImpl" level="info" additivity="true">
         </Logger>
         
         

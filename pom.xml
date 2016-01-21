@@ -81,7 +81,16 @@
 			<groupId>org.jasig.cas</groupId>
 			<artifactId>cas-server-support-generic</artifactId>
 			<version>${cas.version}</version>
-		</dependency>        
+		</dependency>    
+		
+		
+		<!-- for source code trace -->
+		<dependency>
+			<groupId>org.jasig.cas</groupId>
+			<artifactId>cas-server-webapp-support</artifactId>
+			<version>${cas.version}</version>
+		</dependency>    
+		    
     </dependencies>
 
     <properties>
