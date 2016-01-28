@@ -1,8 +1,8 @@
 {
   "@class" : "org.jasig.cas.services.RegexRegisteredService",
-  "serviceId" : "^http://local[.]dev:8080/zlicweb/.*",
+  "serviceId" : "^http://local[.]dev:8080/cloud/.*",
   "name" : "local.dev",
-  "id" : 998,
+  "id" : 997,
   "description" : "This service definition authorized local dev application provide exteral allowed attributes",
   "proxyPolicy" : {
     "@class" : "org.jasig.cas.services.RefuseRegisteredServiceProxyPolicy"
@@ -12,7 +12,7 @@
     "@class" : "org.jasig.cas.services.DefaultRegisteredServiceUsernameProvider"
   },
   "logoutType" : "FRONT_CHANNEL",
-  "logoutUrl" : "http://local.dev:8080/zlicweb/logout",
+  "logoutUrl" : "http://local.dev:8080/cloud/?logout=true",
   "attributeReleasePolicy" : {
     "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
     "principalAttributesRepository" : {
