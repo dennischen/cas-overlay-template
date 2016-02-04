@@ -18,7 +18,7 @@ CAS redirects (HTTP 302) to the service with a message and a RelayState paramete
 This feature is inspired by SAML SLO, 
 and is needed if the client application is composed of several servers and use session affinity. 
 The expected behaviour of the CAS client is to invalidate the application web session 
-and redirect back to the CAS server with the RelayState parameter.	11
+and redirect back to the CAS server with the RelayState parameter.
 
 redirect to , where RelayState is from query string
 https://local.dev:9443/cas/logout?_eventId=next&RelayState=e2s2

@@ -11,8 +11,7 @@
   "usernameAttributeProvider" : {
     "@class" : "org.jasig.cas.services.DefaultRegisteredServiceUsernameProvider"
   },
-  "logoutType" : "FRONT_CHANNEL",
-  "logoutUrl" : "http://local.dev:8080/cloud/?casLogout=true",
+  "logoutType" : "BACK_CHANNEL",
   "attributeReleasePolicy" : {
     "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
     "principalAttributesRepository" : {
