@@ -17,7 +17,7 @@
     "principalAttributesRepository" : {
       "@class" : "org.jasig.cas.authentication.principal.DefaultPrincipalAttributesRepository"
     },
-    "allowedAttributes" : [ "java.util.ArrayList", [ "displayName", "mail" ] ],
+    "allowedAttributes" : [ "java.util.ArrayList", [ "displayName", "mail", "locale" ] ],
     "authorizedToReleaseCredentialPassword" : false,
     "authorizedToReleaseProxyGrantingTicket" : false
   },

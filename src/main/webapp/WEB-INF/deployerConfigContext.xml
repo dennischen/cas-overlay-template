@@ -137,6 +137,7 @@
     <util:map id="attrRepoBackingMap">
         <entry key="displayName" value="Jenkins" />
         <entry key="mail" value="jenkins@zechster.com" />
+        <entry key="locale" value="en_US" />
     </util:map>
 
     <bean id="serviceRegistryDao" class="org.jasig.cas.services.JsonServiceRegistryDao"
