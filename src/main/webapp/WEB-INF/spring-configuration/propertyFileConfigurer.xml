@@ -34,7 +34,7 @@
 		can be moved between tiers without modification.
 	</description>
 
-    <util:properties id="casProperties" location="file:D:/zechster/git/3rd/cas-overlay-template/etc/cas.properties" />
+    <util:properties id="casProperties" location="file:C:/data/zechster/git-repos/3rd/cas-overlay-template/etc/cas.properties" />
 
     <context:property-placeholder properties-ref="casProperties" />
 

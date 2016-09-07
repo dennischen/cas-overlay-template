@@ -106,7 +106,7 @@
           class="org.jasig.cas.authentication.AcceptUsersAuthenticationHandler">
         <property name="users">
             <map>
-                <entry key="jenkins" value="1234"/>
+                <entry key="casuser1" value="1234"/>
             </map>
         </property>
     </bean>
@@ -135,8 +135,8 @@
           p:backingMap-ref="attrRepoBackingMap" />
 
     <util:map id="attrRepoBackingMap">
-        <entry key="displayName" value="Jenkins" />
-        <entry key="mail" value="jenkins@zechster.com" />
+        <entry key="displayName" value="CASUser1" />
+        <entry key="mail" value="casuser1@zechster.com" />
         <entry key="locale" value="en_US" />
     </util:map>
 
